@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Kalkulator segitiga</title>
+</head>
+<body>
+    <header>
+        <h1> 
+            Welcome to Katik
+        </h1>
+    </header>
+    <main>
+        <section class="awalan">Hai Sobat, Selamat datang di Katik</section>
+        <section class="awalan2"> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</section>
+        <section id="judulluas">LUAS SEGITIGA</section>
+        <section class="rumus-luas">
+            <input class="gambar-segitiga"type="image" src="./Assets/Segitiga.png">
+            <div>
+              Rumus Luas Segitiga yaitu:  
+            </div>
+            <div class="luas">
+                L= 1/2 x a x t
+            </div>
+            <div>Di mana:</div>
+            <div>L = Luas</div>
+            <div> a = Panjang Alas</div>
+            <div>t = Tinggi</div>
+        </section>
+        <section class="hitung-luas">
+            Hitunglah Luas Segitiga
+        </section>
+        <section class="input-section">
+            <label for="tinggiinput">Tinggi segitiga</label>
+            <input type="number" id="tinggiinput" placeholder="0">
+            <label for="alasinput">Alas segitiga</label>
+            <input type="number" id="alasinput" placeholder="0">
+            <div id="output"></div>
+        </section>
+        <section>
+                <button id="hitung">Hitung</button>
+                <button id="reset">Reset</button>
+        </section>
+        <section class="otoluas">
+            <nav>
+                <a href="#Gotokeliling">Go to keliling </a>
+            </nav>
+        </section>
+
+
+
+
+
+        
+        <section id="Gotokeliling">Keliling Segitiga</section>
+        <section class="rumus-keliling">
+            <input class="gambar-segitiga"type="image" src="./Assets/Segitiga.png">
+            <div>
+              Rumus keliling Segitiga yaitu:  
+            </div>
+            <div class="keliling">
+                K= S1 + S2 + S3
+            </div>
+            <div>Di mana:</div>
+            <div>K = Keliling</div>
+            <div> S1 = Sisi A</div>
+            <div>S2 = Sisi B</div>
+            <div>S3 = Sisi C</div>
+        </section>
+        <section class="hitung-keliling">
+            Hitunglah keliling Segitiga
+        </section>
+    </section>
+    <section class="input-section">
+        <label for="sisi1input">Sisi 1</label>
+        <input type="number" id="sisi1input" placeholder="0">
+        <label for="sisi2input">Sisi 2</label>
+        <input type="number" id="sisi2input" placeholder="0">
+        <label for="sisi3input">Sisi 3</label>
+        <input type="number" id="sisi3input" placeholder="0">
+        <div id="hasilkeliling"></div>
+    </section>
+    <section>
+            <button id="hitungkeliling">Hitung</button>
+            <button id="resetkeliling">Reset</button>
+    </section>
+    <section class="otokeliling">
+        <nav>
+            <a href="#judulluas">Go to luas </a>
+        </nav>
+    </section>
+
+    </main> 
+    <script src="./js/script.js"></script>
+</body>
+</html>

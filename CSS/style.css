@@ -1,0 +1,215 @@
+html{
+    background-color: #F11A7B;
+}
+
+body{
+    font-family: monospace;
+    background-color: #FFE5AD;
+    margin: 50px;
+    border-radius: 10px;
+
+    border: 5px solid #3E001F;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.awalan{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.awalan2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+#judulluas{
+    background-color: #982176 ;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.gambar-segitiga{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 285px;
+    height: 285px;
+}
+
+.rumus-luas{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.luas{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hitung-luas{
+    background-color: #982176 ;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+
+#alasinput , #tinggiinput{
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: 10px;
+}
+
+
+label{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+input:focus{
+    border-color: brown;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(220, 183, 255);
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: rgb(8, 147, 211);
+}
+
+button:active{
+    transform: translateY(2px);
+    background-color: blueviolet;
+}
+
+.otoluas{
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffb0d8;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    margin-bottom: 500px;
+}
+
+.rumus-keliling{
+    font-size: 18px;
+    margin-left: 10px;
+}
+#Gotokeliling{
+    background-color: #982176 ;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.keliling{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hitung-keliling{
+    background-color: #982176 ;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+
+#sisi1input , #sisi2input , #sisi3input{
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.label2{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.otokeliling{
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffb0d8;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#output{
+    padding: 10px;
+    border: 2px solid blueviolet;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: 10px;
+    width: 400px;
+    background-color: rgb(220, 183, 255) ;
+}
+
+#hasilkeliling{
+    padding: 10px;
+    border: 2px solid blueviolet;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: 10px;
+    width: 400px;
+    background-color: rgb(220, 183, 255) ;
+}
